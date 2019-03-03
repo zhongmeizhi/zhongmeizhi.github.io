@@ -30,7 +30,12 @@ onStateLoaded(function () {
   } else {
     // PC模式
     let $PC = document.createElement('div')
-    $PC.style.cssText = 'width: 366px; margin: 30px auto;'
+    $PC.style.cssText = `
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);;
+    `
     $PC.innerHTML = `
       <h1>当前打开方式为PC端Web页</h1>
       <h2>请使用手机模式打开</h2>
