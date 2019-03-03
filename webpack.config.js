@@ -7,7 +7,7 @@ function resolve(dir) {
 
 module.exports = {
   entry: {
-    app: resolve('src/js/compat.js')
+    app: resolve('app.js')
   },
   output: {
     path: resolve(''),
