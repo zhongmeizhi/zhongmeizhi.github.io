@@ -88,7 +88,6 @@ var webpackConfig = {
       },
       chunksSortMode: 'dependency'
     }),
-    
     new HtmlWebpackPlugin({
       filename: path.resolve(__dirname, '../my-dist/production.html'),
       template: 'production.html',
