@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "node buid/prod.js"
+    "build": "node buid/build.conf.js"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
