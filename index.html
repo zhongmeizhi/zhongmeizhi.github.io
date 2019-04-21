@@ -1,4 +1,19 @@
-<!DOCTYPE html><html lang=zh><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=description content=钟美志,简历,个人简历,简历模板,个人简历模板,简历模板下载,个人网站><meta name=keywords content=钟美志,简历,个人简历,简历模板,个人简历模板,简历模板下载,个人网站><meta http-equiv=Pragma content=no-cache><meta http-equiv=Cache-Control content=no-cache><meta http-equiv=Expires content=0><title>钟美志的个人网站</title><link rel=stylesheet href=src/css/base.css><style>#mainBox {
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="钟美志,简历,个人简历,简历模板,个人简历模板,简历模板下载,个人网站">
+	<meta name="keywords" content="钟美志,简历,个人简历,简历模板,个人简历模板,简历模板下载,个人网站">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<title>钟美志的个人网站</title>
+	<link rel="stylesheet" href="src/css/base.css">
+	<style>
+		#mainBox {
 			position: relative;
 		}
 		#mainBox .h-title {
@@ -19,9 +34,49 @@
 		}
 		.content-box .me-list li::before {
 			content: '';
-			width: 1px;
-			border-left: 2px solid blue;
+			border-left: 1px solid blue;
+			padding-right: 1px;
 		}
-		.content-box .me-list li .a {
+		.content-box .me-list li a {
 			color: gray;
-		}</style></head><body><section id=mainBox><div class=content-box><ul class=me-list><li><a href=about.html>关于我</a></li><li><a href=production.html>个人作品</a></li><li><a href=share.html>知识分享</a></li></ul></div></section><script type=text/javascript src=manifest.js></script><script type=text/javascript src=app.js></script></body></html>
+		}
+		@media screen and (min-width: 769px) {
+			.content-box .me-list {
+				display: flex;
+				justify-content: space-around;
+			}
+			.content-box .me-list li::before {
+				border-left: none;
+			}
+			.content-box .me-list li a {
+				color: #409eff;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<section id="mainBox">
+		<div class="content-box">
+			<ul class="me-list">
+				<li>
+					<a href="about.html">关于我</a>
+				</li>
+				<li>
+					<a href="production.html">个人作品</a>
+				</li>
+				<li>
+					<a href="https://github.com/zhongmeizhi/">PC端个人网站</a>
+				</li>
+				<li>
+					<a href="https://github.com/zhongmeizhi/">GitHub</a>
+				</li>
+				<li>
+					<a href="https://zhongmeizhi.gitbook.io/md/">GitBook</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+</body></html><script type="text/javascript" src="app.js"></script>
