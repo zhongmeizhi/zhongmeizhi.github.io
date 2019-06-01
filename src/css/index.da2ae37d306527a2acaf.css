@@ -57,10 +57,14 @@ ol {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
+/* a:link{color:#009;}
+a:visited{color:#800080;}
+a:active{color:#cfbecf;} */
 sup {
   vertical-align: text-top;
 }
@@ -82,47 +86,12 @@ textarea {
 }
 /*  */
 html {
-  font-size: 10px;
-}
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  html {
-    font-size: 11px;
-  }
-}
-@media screen and (min-width: 376px) and (max-width: 414px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 415px) and (max-width: 639px) {
-  html {
-    font-size: 15px;
-  }
-}
-@media screen and (min-width: 640px) and (max-width: 719px) {
-  html {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 720px) and (max-width: 749px) {
-  html {
-    font-size: 22.5px;
-  }
-}
-@media screen and (min-width: 750px) and (max-width: 799px) {
-  html {
-    font-size: 23.5px;
-  }
-}
-@media screen and (min-width: 800px) {
-  html {
-    font-size: 25px;
-  }
+  font-size: 14px;
 }
 /*  */
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 img[alt='www.000webhost.com'] {
   display: none !important;
@@ -130,22 +99,19 @@ img[alt='www.000webhost.com'] {
 
 #mainBox {
   position: relative;
+  min-height: 100%;
 }
 #mainBox .h-title {
   text-align: center;
 }
 #homeCanvas {
-  position: fixed;
   z-index: -1;
-  top: 0;
-  left: 0;
 }
 .content-box {
-  font-size: 1.2rem;
-  padding-top: 3.6rem;
+  padding-top: 15vw;
 }
 .content-box .me-list li {
-  padding: 0.26rem 1.2rem;
+  padding: 1.3vw 4vw;
 }
 .content-box .me-list li::before {
   content: '';
@@ -155,16 +121,20 @@ img[alt='www.000webhost.com'] {
 .content-box .me-list li a {
   color: gray;
 }
-@media screen and (min-width: 769px) {
-  .content-box .me-list {
-    display: flex;
-    justify-content: space-around;
+@media screen and (min-width: 640px) {
+  body {
+    background: #fff4f0;
   }
-  .content-box .me-list li::before {
-    border-left: none;
+  #mainBox {
+    width: 375px;
+    margin: auto;
+    background: white;
   }
-  .content-box .me-list li a {
-    color: #409eff;
+  #homeCanvas {
+    z-index: 2;
+  }
+  .content-box {
+    display: none;
   }
 }
 

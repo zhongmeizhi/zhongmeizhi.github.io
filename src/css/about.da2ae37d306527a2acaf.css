@@ -57,10 +57,14 @@ ol {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
+/* a:link{color:#009;}
+a:visited{color:#800080;}
+a:active{color:#cfbecf;} */
 sup {
   vertical-align: text-top;
 }
@@ -82,63 +86,50 @@ textarea {
 }
 /*  */
 html {
-  font-size: 10px;
-}
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  html {
-    font-size: 11px;
-  }
-}
-@media screen and (min-width: 376px) and (max-width: 414px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 415px) and (max-width: 639px) {
-  html {
-    font-size: 15px;
-  }
-}
-@media screen and (min-width: 640px) and (max-width: 719px) {
-  html {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 720px) and (max-width: 749px) {
-  html {
-    font-size: 22.5px;
-  }
-}
-@media screen and (min-width: 750px) and (max-width: 799px) {
-  html {
-    font-size: 23.5px;
-  }
-}
-@media screen and (min-width: 800px) {
-  html {
-    font-size: 25px;
-  }
+  font-size: 14px;
 }
 /*  */
 html,
 body {
-  height: 100%;
+  min-height: 100%;
 }
 img[alt='www.000webhost.com'] {
   display: none !important;
 }
 
 #mainBox {
-  margin: 1rem;
+  padding: 4vw;
 }
 h1 {
   text-align: center;
-  margin-bottom: 1rem;
-  font-size: 2.2rem;
+  margin-bottom: 1vw;
+  font-size: 6vw;
 }
-li:before {
+h5 {
+  margin: 3vw 0 1vw;
+}
+h5:before {
   content: '';
   width: 1px;
+  margin-right: 1vw;
   border-left: 1px solid blue;
+}
+.p-info,
+.ul-list {
+  margin: 0 1vw;
+}
+.ul-list li {
+  margin: 2vw;
+}
+.ul-list.presentation {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-left: 2vw;
+}
+.ul-list.experience li {
+  padding-top: 1.5vw;
+}
+.ul-list.experience li:first-child {
+  padding-top: 0;
 }
 
