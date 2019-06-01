@@ -1,0 +1,119 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+/*body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: couriernew, courier, monospace;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+/* a:link{color:#009;}
+a:visited{color:#800080;}
+a:active{color:#cfbecf;} */
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+legend {
+  color: #000;
+}
+fieldset,
+img {
+  border: 0;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/*  */
+html {
+  font-size: 14px;
+}
+/*  */
+html,
+body {
+  height: 100%;
+}
+img[alt='www.000webhost.com'] {
+  display: none !important;
+}
+
+#mainBox {
+  padding: 4vw;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2vw;
+  font-size: 6vw;
+}
+ul li {
+  margin: 2vw 0;
+}
+ul li:before {
+  content: '';
+  width: 1px;
+  border-left: 1px solid blue;
+}
+ul li a {
+  color: grey;
+}
+
